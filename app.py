@@ -23,7 +23,8 @@ if hist_button:  # al hacer clic en el botón
 
 # Boton para construir grafico de dispersion
 
-scatter_button = st.button('Construir histograma')  # crear un botón
+scatter_button = st.button(
+    'Construir diagrama de dispersion')  # crear un botón
 
 if scatter_button:
     # escribir un mensaje
