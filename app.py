@@ -8,7 +8,7 @@ st.header('Anuncios de venta de vehículos en los Estados Unidos')
 
 # Crear un histograma
 
-hist_button = st.button('Construir histograma')  # crear un botón
+hist_button = st.checkbox('Construir histograma')  # crear un botón
 
 if hist_button:  # al hacer clic en el botón
     # escribir un mensaje
@@ -23,7 +23,7 @@ if hist_button:  # al hacer clic en el botón
 
 # Boton para construir grafico de dispersion
 
-scatter_button = st.button(
+scatter_button = st.checkbox(
     'Construir diagrama de dispersion')  # crear un botón
 
 if scatter_button:
